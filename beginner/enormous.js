@@ -1,6 +1,6 @@
 // https://www.codechef.com/problems/INTEST
 
-input = ""
+let input = ""
 process.stdin.on('data', (d) => input += d)
 process.stdin.on('end', () => {
     input = input.split('\n')
